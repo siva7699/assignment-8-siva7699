@@ -6,7 +6,6 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 # Example: use HTTPS form of the URL so it parses correctly in bitbake
 SRC_URI = "git://github.com/cu-ecen-aeld/assignments-3-and-later-siva7699.git;protocol=https;branch=main"
 
-
 PV = "1.0+git${SRCPV}"
 # TODO: set to reference a specific commit hash in your assignment repo
 SRCREV = "8cbbdfa98939b469b2d88ba36d65627327c85c8e"
